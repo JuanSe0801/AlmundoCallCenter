@@ -1,10 +1,7 @@
 package com.almundo.callcenter.thread;
 
-import java.util.concurrent.atomic.AtomicInteger;
-
 import com.almundo.callcenter.logic.Dispatcher;
 import com.almundo.callcenter.objects.Call;
-import com.almundo.callcenter.objects.CallResponse;
 
 public class CallThread extends Thread{
 	

@@ -11,7 +11,6 @@ public class Processor {
 		
 		for(int i=1; i <= numberCalls; i++) {
 			int segundos = ((int)(Math.random()*(5-11)+11));
-			System.out.println("La llamada durara "+segundos+ " segundos");
 			long initialTime = System.currentTimeMillis();
 			Call call = new Call(i, "nameUser"+i, ""+i, segundos);
 			CallThread callThread = new CallThread(call, initialTime);
